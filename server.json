@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/epstein",
   "title": "Epstein",
   "description": "The Epstein investigation document corpus — the documents themselves, plus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/epstein",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-epstein",

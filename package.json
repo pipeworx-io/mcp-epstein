@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-epstein",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Epstein investigation document corpus — the documents themselves, plus",
   "type": "module",
   "main": "src/index.ts",
@@ -22,6 +22,11 @@
     "tsx": "^4.19.0"
   },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-e6d0ebd26aee07a9e3df5a59e783531a294644375e484534d0f4853c55f82b8e",
+    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
   }
 }

@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-epstein",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "The Epstein investigation document corpus — the documents themselves, plus (phase 2) Epstein's own flight logs as a structured table.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-epstein": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "epstein"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-epstein.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/epstein",
   "pipeworx": {
-    "sourceHash": "v1-7ba5575c6aa04601011a11488e019b3f7173ade7c4308857025f94cde26ec0c8",
-    "sourceCommit": "722087a9bda73f85942e8f6bbfd598544cb0d490"
+    "mode": "gateway",
+    "slug": "epstein",
+    "gatewaySlug": "epstein",
+    "sourceHash": "v1-85c04e2a767fd20c9f7c359117ff9bd042306cc30e8b72d50547f3b60b4ffbbb",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }

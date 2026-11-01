@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-epstein",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "The Epstein investigation document corpus — the documents themselves, plus (phase 2) Epstein's own flight logs as a structured table.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "epstein",
     "gatewaySlug": "epstein",
-    "sourceHash": "v1-85c04e2a767fd20c9f7c359117ff9bd042306cc30e8b72d50547f3b60b4ffbbb",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-7a74f97c85006fe564acb190f1fa7309c3a33db9cbb821ef43c299a13d8c6a72",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
